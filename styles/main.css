@@ -68,7 +68,7 @@ body {
   height: 100%;
   display: block;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .main-post__image::before {
   content: "";
@@ -176,7 +176,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   -moz-column-gap: 14px;
-       column-gap: 14px;
+  column-gap: 14px;
   position: absolute;
   bottom: 0;
   max-width: 95%;
@@ -248,4 +248,4 @@ body {
     transform: translatex(-80%);
     max-width: 70%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,6 @@
 .second_page {
   background-color: black;
   padding: 50px 50px;
-
 }
 
 article {
@@ -10,7 +9,6 @@ article {
   transform-origin: center;
   overflow: hidden;
 }
-
 
 article a::after {
   position: absolute;
@@ -73,9 +71,9 @@ article a .icon {
   --title-color: #28666e;
   --link-icon-translate: 0;
   --link-icon-opacity: 1;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-
 
 /************************ 
 Generic layout (demo looks)
@@ -86,7 +84,6 @@ Generic layout (demo looks)
 *::after {
   box-sizing: border-box;
 }
-
 
 .articles {
   display: grid;
@@ -128,11 +125,11 @@ Generic layout (demo looks)
 }
 
 .sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
